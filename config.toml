@@ -99,17 +99,7 @@ image = "images/2020-square-1.png"
 
 # footer
 [params.footer]
-title = "About Us"
-content = "At Fulcrum, we believe every brand has a unique story. Our seasoned team works collaboratively to leverage it and transform your vision into compelling narratives that resonate with your audience."
-address = "Nairobi, Kenya"
-hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
 copyright = "Copyright &copy; FULCRUM MEDIA 2025"
 
 ############################# social site ########################
 [params.social]
-yelp = "#"
-facebook = "#"
-twitter = "#"
-instagram = "#"
-email = "#"
-linkedin = "#"
