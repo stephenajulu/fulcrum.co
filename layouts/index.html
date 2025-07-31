@@ -5,11 +5,11 @@
   <header class="entry-header has-text-align-center header-footer-group">
     <div class="entry-header-inner section-inner medium">
       <h1 class="entry-title">{{ . | markdownify }}</h1>
-      <h2 class="has-text-align-center">{{ .Params.banner.subheading | markdownify }}</h2>
-      <div class="wp-block-button aligncenter"><a class="wp-block-button__link" href="/contact">Start Your Content Journey →</a></div>
     </div>
   </header>
   {{ end }}
+    <h2 class="has-text-align-center">{{ .Site.Params.banner.subheading | markdownify }}</h2>
+    <div class="wp-block-button aligncenter"><a class="wp-block-button__link" href="/contact">Start Your Content Journey →</a></div>
 
   {{ with.Site.Params.banner.image}}
   <figure class="featured-media">
@@ -30,13 +30,13 @@
         </div>
       </div>
       {{ end }}
-      <!--<div class="wp-block-columns columns alignwide">
+      <div class="wp-block-columns columns alignwide">
         {{ range (where .Site.RegularPages "Section" "blog")}}
         <div class="column">
           <div class="wp-block-group">
             <div class="wp-block-group__inner-container">
-              <figure class="wp-block-image alignfull size-full"><img src="{{ .Params.Image |absURL }}"
-                  alt="{{.Title }}" class="wp-image-37" /></figure>
+              <!--<figure class="wp-block-image alignfull size-full"><img src="{{ .Params.Image |absURL }}"
+                  alt="{{.Title }}" class="wp-image-37" /></figure>-->
               <h3>{{ .Title }}</h3>
               <p>{{ .PublishDate.Format "January 02, 2006"}}</p>
               <div class="wp-block-button is-style-outline"><a class="wp-block-button__link"
@@ -45,7 +45,7 @@
           </div>
         </div>
         {{ end }}
-      </div>-->
+      </div>
 
       {{ if .Site.Params.call_to_action.enable }}
       {{ with .Site.Params.call_to_action }}
