@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "FULCRUM MEDIA"
+title = "Fulcrum"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
@@ -37,19 +37,14 @@ URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
-URL = "about/"
-weight = 2
-
-[[menu.main]]
 name = "Blog"
 URL = "blog/"
-weight = 3
+weight = 2
 
 [[menu.main]]
 name = "Contact"
 URL = "contact/"
-weight = 4
+weight = 3
 
 # only desktop menu
 [[menu.desktop]]
@@ -75,7 +70,8 @@ expire_days = 14
 
 # banner
 [params.banner]
-heading = "We Leverage Your Expertise to Drive Organic Leads and Sales"
+heading = "Transform Your Brand’s Voice & Expertise into Organic Growth"
+subheading = "Content that converts. Strategy that scales. Fulcrum is your storytelling engine for leads and loyalty."
 image = "images/fulcrumstast2.jpg"
 
 # blog
@@ -84,10 +80,10 @@ image = "images/fulcrumstast2.jpg"
 
 # call to action
 [params.call_to_action]
-enable = false
-title = "Let's Get YOU Some Leads!"
+enable = true
+title = ""
 content = ""
-button_label = "Contact Us"
+button_label = "Start Your Content Journey →"
 button_url = "contact/"
 
 # gallery
